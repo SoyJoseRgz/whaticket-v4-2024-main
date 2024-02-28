@@ -293,7 +293,7 @@ const MainListItems = (props) => {
 
       <ListItemLink
         to="/quick-messages"
-        primary={i18n.t("mainDrawer.listItems.quickMessages")}
+        primary={i18n.t("Respuestas rápidas")}
         icon={<FlashOnIcon />}
       />
 	  
