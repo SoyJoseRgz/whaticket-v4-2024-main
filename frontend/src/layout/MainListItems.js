@@ -152,7 +152,7 @@ const MainListItems = (props) => {
   const [searchParam] = useState("");
   const [chats, dispatch] = useReducer(reducer, []);
   const { getPlanCompany } = usePlans();
- 
+
 
   useEffect(() => {
     dispatch({ type: "RESET" });
@@ -284,8 +284,8 @@ const MainListItems = (props) => {
         primary={i18n.t("Tickets")}
         icon={<WhatsAppIcon />}
       />
-	  
-	  <ListItemLink
+
+      <ListItemLink
         to="/kanban"
         primary={i18n.t("Kanban")}
         icon={<TableChartIcon />}
@@ -296,34 +296,34 @@ const MainListItems = (props) => {
         primary={i18n.t("Respuestas rápidas")}
         icon={<FlashOnIcon />}
       />
-	  
-	  <ListItemLink
+
+      <ListItemLink
         to="/todolist"
-        primary={i18n.t("Tarefas")}
+        primary={i18n.t("Notas rápidas")}
         icon={<BorderColorIcon />}
       />
 
       <ListItemLink
         to="/contacts"
-        primary={i18n.t("mainDrawer.listItems.contacts")}
+        primary={i18n.t("Contactos")}
         icon={<ContactPhoneOutlinedIcon />}
       />
 
       <ListItemLink
         to="/schedules"
-        primary={i18n.t("mainDrawer.listItems.schedules")}
+        primary={i18n.t("Calendario")}
         icon={<EventIcon />}
       />
 
       <ListItemLink
         to="/tags"
-        primary={i18n.t("mainDrawer.listItems.tags")}
+        primary={i18n.t("Etiquetas")}
         icon={<LocalOfferIcon />}
       />
 
       <ListItemLink
         to="/chats"
-        primary={i18n.t("mainDrawer.listItems.chats")}
+        primary={i18n.t("Chat interno")}
         icon={
           <Badge color="secondary" variant="dot" invisible={invisible}>
             <ForumIcon />
@@ -331,11 +331,12 @@ const MainListItems = (props) => {
         }
       />
 
-      <ListItemLink
+      {/* Ocultar Ayuda */}
+      {/*       <ListItemLink
         to="/helps"
-        primary={i18n.t("mainDrawer.listItems.helps")}
+        primary={i18n.t("Ayuda")}
         icon={<HelpOutlineIcon />}
-      />
+      /> */}
 
       <Can
         role={user.profile}
@@ -355,7 +356,7 @@ const MainListItems = (props) => {
               color="inherit">
               {i18n.t("mainDrawer.listItems.administration")}
             </ListSubheader>
-			
+
             {showCampaigns && (
               <>
                 <ListItem
@@ -366,7 +367,7 @@ const MainListItems = (props) => {
                     <EventAvailableIcon />
                   </ListItemIcon>
                   <ListItemText
-                    primary={i18n.t("mainDrawer.listItems.campaigns")}
+                    primary={i18n.t("Campañas")}
                   />
                   {openCampaignSubmenu ? (
                     <ExpandLessIcon />
@@ -385,7 +386,7 @@ const MainListItems = (props) => {
                       <ListItemIcon>
                         <ListIcon />
                       </ListItemIcon>
-                      <ListItemText primary="Listagem" />
+                      <ListItemText primary="Listas de campaña" />
                     </ListItem>
                     <ListItem
                       onClick={() => history.push("/contact-lists")}
@@ -394,7 +395,7 @@ const MainListItems = (props) => {
                       <ListItemIcon>
                         <PeopleIcon />
                       </ListItemIcon>
-                      <ListItemText primary="Listas de Contatos" />
+                      <ListItemText primary="Listas de contatos" />
                     </ListItem>
                     <ListItem
                       onClick={() => history.push("/campaigns-config")}
@@ -403,7 +404,7 @@ const MainListItems = (props) => {
                       <ListItemIcon>
                         <SettingsOutlinedIcon />
                       </ListItemIcon>
-                      <ListItemText primary="Configurações" />
+                      <ListItemText primary="Configuración" />
                     </ListItem>
                   </List>
                 </Collapse>
@@ -412,7 +413,7 @@ const MainListItems = (props) => {
             {user.super && (
               <ListItemLink
                 to="/announcements"
-                primary={i18n.t("mainDrawer.listItems.annoucements")}
+                primary={i18n.t("Avisos")}
                 icon={<AnnouncementIcon />}
               />
             )}
@@ -427,13 +428,13 @@ const MainListItems = (props) => {
             {showIntegrations && (
               <ListItemLink
                 to="/queue-integration"
-                primary={i18n.t("mainDrawer.listItems.queueIntegration")}
+                primary={i18n.t("Integraciones")}
                 icon={<DeviceHubOutlined />}
               />
             )}
             <ListItemLink
               to="/connections"
-              primary={i18n.t("mainDrawer.listItems.connections")}
+              primary={i18n.t("Conexiones")}
               icon={
                 <Badge badgeContent={connectionWarning ? "!" : 0} color="error">
                   <SyncAltIcon />
@@ -442,20 +443,22 @@ const MainListItems = (props) => {
             />
             <ListItemLink
               to="/files"
-              primary={i18n.t("mainDrawer.listItems.files")}
+              primary={i18n.t("Lista de archivos")}
               icon={<AttachFile />}
             />
             <ListItemLink
               to="/queues"
-              primary={i18n.t("mainDrawer.listItems.queues")}
+              primary={i18n.t("Filas & Departamentos")}
               icon={<AccountTreeOutlinedIcon />}
             />
             <ListItemLink
               to="/users"
-              primary={i18n.t("mainDrawer.listItems.users")}
+              primary={i18n.t("Usuarios")}
               icon={<PeopleAltOutlinedIcon />}
             />
-            {showExternalApi && (
+
+            {/* Ocultar API */}
+            {/* {showExternalApi && (
               <>
                 <ListItemLink
                   to="/messages-api"
@@ -463,20 +466,23 @@ const MainListItems = (props) => {
                   icon={<CodeRoundedIcon />}
                 />
               </>
-            )}
-            <ListItemLink
+            )} */}
+
+            {/* Ocultar finanzas */}
+
+            {/*  <ListItemLink
               to="/financeiro"
               primary={i18n.t("mainDrawer.listItems.financeiro")}
               icon={<LocalAtmIcon />}
-            />
+            /> */}
 
             <ListItemLink
               to="/settings"
-              primary={i18n.t("mainDrawer.listItems.settings")}
+              primary={i18n.t("Configuración")}
               icon={<SettingsOutlinedIcon />}
             />
-			
-			
+
+
             {!collapsed && <React.Fragment>
               <Divider />
               {/* 
@@ -485,12 +491,21 @@ const MainListItems = (props) => {
                 <img style={{ width: "100%", padding: "10px" }} src={logo} alt="image" />            
               </Hidden> 
               */}
+              <li>
+                <ListItem
+                  button
+                  dense
+                  onClick={handleClickLogout}>
+                  <ListItemIcon><RotateRight /></ListItemIcon>
+                  <ListItemText primary={i18n.t("Cerrar sesión")} />
+                </ListItem>
+              </li>
               <Typography style={{ fontSize: "12px", padding: "10px", textAlign: "right", fontWeight: "bold" }}>
-                Versão: 4.0.0
+                Versión Beta: 1.1
               </Typography>
             </React.Fragment>
             }
-			
+
           </>
         )}
       />
