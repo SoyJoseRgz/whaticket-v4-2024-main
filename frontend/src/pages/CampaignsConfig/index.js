@@ -230,7 +230,7 @@ const CampaignsConfig = () => {
                 color="primary"
                 style={{ marginRight: 10 }}
               >
-                Adicionar Variável
+                Agregar Variável
               </Button>
               <Button
                 onClick={saveSettings}
@@ -275,7 +275,7 @@ const CampaignsConfig = () => {
                     color="primary"
                     variant="contained"
                   >
-                    Adicionar
+                    Agregar
                   </Button>
                 </Grid>
               </>

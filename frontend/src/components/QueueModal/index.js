@@ -225,7 +225,7 @@ const QueueModal = ({ open, onClose, queueId }) => {
           aria-label="disabled tabs example"
         >
           <Tab label="Dados da Fila" />
-          {schedulesEnabled && <Tab label="Horários de Atendimento" />}
+          {schedulesEnabled && <Tab label="Horario de atención " />}
         </Tabs>
         {tab === 0 && (
           <Paper>
@@ -458,7 +458,7 @@ const QueueModal = ({ open, onClose, queueId }) => {
               loading={false}
               onSubmit={handleSaveSchedules}
               initialValues={schedules}
-              labelSaveButton="Adicionar"
+              labelSaveButton="Agregar"
             />
           </Paper>
         )}

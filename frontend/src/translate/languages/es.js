@@ -368,7 +368,7 @@ const messages = {
 				},
 				tabs: {
 					open: { title: "Abiertas" },
-					closed: { title: "Resueltas" },
+					closed: { title: "Resueltos" },
 					search: { title: "Buscar" },
 				},
 				search: {
