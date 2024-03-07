@@ -278,7 +278,7 @@ const Dashboard = () => {
       .add(minutes, "minutes")
       .format("HH[h] mm[m]");
   }
-
+  /* Traduccion de tabla de filtrado dasboard */
   function renderFilters() {
     if (filterType === 1) {
       return (
@@ -353,6 +353,7 @@ const Dashboard = () => {
 
 
           {/* ATENDIMENTOS PENDENTES */}
+          {/* Traduccion de texto de los botones dasboard */}
           <Grid item xs={12} sm={6} md={4}>
             <Paper
               className={classes.card1}
