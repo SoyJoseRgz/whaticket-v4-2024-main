@@ -489,7 +489,7 @@ const messages = {
         },
         mediaMessage: {
           number: "Número",
-          body: "Nome do arquivo",
+          body: "Nombre del archivo",
           media: "Arquivo",
           token: "Token cadastrado",
         },
@@ -530,7 +530,7 @@ const messages = {
           shortcode: "Atalho",
           message: "Mensagem",
           actions: "Ações",
-          mediaName: "Nome do Arquivo",
+          mediaName: "Nombre del archivo",
           status: "Status",
         },
       },
