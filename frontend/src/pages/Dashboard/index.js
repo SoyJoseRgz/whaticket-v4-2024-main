@@ -285,7 +285,7 @@ const Dashboard = () => {
         <>
           <Grid item xs={12} sm={6} md={4}>
             <TextField
-              label="Data Inicial"
+              label="Fecha de inicio"
               type="date"
               value={dateFrom}
               onChange={(e) => setDateFrom(e.target.value)}
@@ -297,7 +297,7 @@ const Dashboard = () => {
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <TextField
-              label="Data Final"
+              label="Fecha final"
               type="date"
               value={dateTo}
               onChange={(e) => setDateTo(e.target.value)}
@@ -320,15 +320,15 @@ const Dashboard = () => {
               value={period}
               onChange={(e) => handleChangePeriod(e.target.value)}
             >
-              <MenuItem value={0}>Nenhum selecionado</MenuItem>
-              <MenuItem value={3}>Últimos 3 dias</MenuItem>
-              <MenuItem value={7}>Últimos 7 dias</MenuItem>
-              <MenuItem value={15}>Últimos 15 dias</MenuItem>
-              <MenuItem value={30}>Últimos 30 dias</MenuItem>
-              <MenuItem value={60}>Últimos 60 dias</MenuItem>
-              <MenuItem value={90}>Últimos 90 dias</MenuItem>
+              <MenuItem value={0}>Ninguno seleccionada</MenuItem>
+              <MenuItem value={3}>Últimos 3 días</MenuItem>
+              <MenuItem value={7}>Últimos 7 días</MenuItem>
+              <MenuItem value={15}>Últimos 15 días</MenuItem>
+              <MenuItem value={30}>Últimos 30 días</MenuItem>
+              <MenuItem value={60}>Últimos 60 días</MenuItem>
+              <MenuItem value={90}>Últimos 90 días</MenuItem>
             </Select>
-            <FormHelperText>Selecione o período desejado</FormHelperText>
+            <FormHelperText>Seleccione el período deseado</FormHelperText>
           </FormControl>
         </Grid>
       );
@@ -366,7 +366,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Atd. Pendentes
+                    A.T. Pendientes
                   </Typography>
                   <Grid item>
                     <Typography
@@ -403,7 +403,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Atd. Acontecendo
+                    A.T. En curso
                   </Typography>
                   <Grid item>
                     <Typography
@@ -440,7 +440,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Finalizados
+                    A.T. Resueltos
                   </Typography>
                   <Grid item>
                     <Typography
@@ -477,7 +477,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Novos Contatos
+                    Posibles clientes
                   </Typography>
                   <Grid item>
                     <Typography
@@ -514,7 +514,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    T.M. de Atendimento
+                    T.P. de Atención
                   </Typography>
                   <Grid item>
                     <Typography
@@ -551,7 +551,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    T.M. de Espera
+                    T.P. de Espera
                   </Typography>
                   <Grid item>
                     <Typography
@@ -577,16 +577,16 @@ const Dashboard = () => {
           {/* FILTROS */}
           <Grid item xs={12} sm={6} md={4}>
             <FormControl className={classes.selectContainer}>
-              <InputLabel id="period-selector-label">Tipo de Filtro</InputLabel>
+              <InputLabel id="period-selector-label">Tipo de filtro</InputLabel>
               <Select
                 labelId="period-selector-label"
                 value={filterType}
                 onChange={(e) => handleChangeFilterType(e.target.value)}
               >
-                <MenuItem value={1}>Filtro por Data</MenuItem>
-                <MenuItem value={2}>Filtro por Período</MenuItem>
+                <MenuItem value={1}>Filtro por fecha</MenuItem>
+                <MenuItem value={2}>Filtro por período</MenuItem>
               </Select>
-              <FormHelperText>Selecione o período desejado</FormHelperText>
+              <FormHelperText>Seleccione el período deseado</FormHelperText>
             </FormControl>
           </Grid>
 
