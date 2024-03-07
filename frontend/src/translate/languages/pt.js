@@ -150,7 +150,7 @@ const messages = {
         toasts: {
           deleted: "Contato excluído com sucesso!",
         },
-        searchPlaceholder: "Pesquisar...",
+        searchPlaceholder: "Buscar...",
         confirmationModal: {
           deleteTitle: "Deletar ",
           importTitlte: "Importar contatos",
@@ -400,7 +400,7 @@ const messages = {
       },
       newTicketModal: {
         title: "Criar Ticket",
-        fieldLabel: "Digite para pesquisar o contato",
+        fieldLabel: "Digite para Buscar o contato",
         add: "Adicionar",
         buttons: {
           ok: "Salvar",
@@ -412,7 +412,7 @@ const messages = {
           dashboard: "Dashboard",
           connections: "Conexões",
           tickets: "Atendimentos",
-          quickMessages: "Respostas Rápidas",
+          quickMessages: "Respuestas Rápidas",
           contacts: "Contatos",
           queues: "Filas & Chatbot",
           tags: "Tags",
@@ -451,7 +451,7 @@ const messages = {
         buttons: {
           add: "Adicionar Projeto",
         },
-        searchPlaceholder: "Pesquisar...",
+        searchPlaceholder: "Buscar...",
         confirmationModal: {
           deleteTitle: "Excluir",
           deleteMessage:
@@ -498,8 +498,8 @@ const messages = {
         noTickets: "Nenhuma notificação.",
       },
       quickMessages: {
-        title: "Respostas Rápidas",
-        searchPlaceholder: "Pesquisar...",
+        title: "Respuestas Rápidas",
+        searchPlaceholder: "Buscar...",
         noAttachment: "Sem anexo",
         confirmationModal: {
           deleteTitle: "Exclusão",
@@ -517,7 +517,7 @@ const messages = {
         },
         dialog: {
           title: "Mensagem Rápida",
-          shortcode: "Atalho",
+          shortcode: "Atajo",
           message: "Resposta",
           save: "Salvar",
           cancel: "Cancelar",
@@ -527,7 +527,7 @@ const messages = {
           visao: "Permitir visão",
         },
         table: {
-          shortcode: "Atalho",
+          shortcode: "Atajo",
           message: "Mensagem",
           actions: "Ações",
           mediaName: "Nombre del archivo",
@@ -574,7 +574,7 @@ const messages = {
       },
       contactListItems: {
         title: "Contatos",
-        searchPlaceholder: "Pesquisa",
+        searchPlaceholder: "Buscar",
         buttons: {
           add: "Novo",
           lists: "Listas",
@@ -610,7 +610,7 @@ const messages = {
       },
       campaigns: {
         title: "Campanhas",
-        searchPlaceholder: "Pesquisa",
+        searchPlaceholder: "Buscar",
         buttons: {
           add: "Nova Campanha",
           contactLists: "Listas de Contatos",
@@ -675,7 +675,7 @@ const messages = {
         active: 'Ativo',
         inactive: 'Inativo',
         title: "Informativos",
-        searchPlaceholder: "Pesquisa",
+        searchPlaceholder: "Buscar",
         buttons: {
           add: "Novo Informativo",
           contactLists: "Listas de Informativos",
