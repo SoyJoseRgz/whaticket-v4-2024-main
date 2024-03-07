@@ -311,10 +311,10 @@ const messages = {
           edit: "Editar Agendamento",
         },
         form: {
-          body: "Mensagem",
-          contact: "Contato",
-          sendAt: "Data de Agendamento",
-          sentAt: "Data de Envio",
+          body: "Mensaje",
+          contact: "Contacto",
+          sendAt: "Fecha de programacion",
+          sentAt: "Fecha de envío",
         },
         buttons: {
           okAdd: "Adicionar",

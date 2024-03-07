@@ -97,11 +97,11 @@ const QueueModal = ({ open, onClose, queueId }) => {
   const [integrations, setIntegrations] = useState([]);
 
   const [schedules, setSchedules] = useState([
-    { weekday: "Segunda-feira", weekdayEn: "monday", startTime: "08:00", endTime: "18:00", },
-    { weekday: "Terça-feira", weekdayEn: "tuesday", startTime: "08:00", endTime: "18:00", },
-    { weekday: "Quarta-feira", weekdayEn: "wednesday", startTime: "08:00", endTime: "18:00", },
-    { weekday: "Quinta-feira", weekdayEn: "thursday", startTime: "08:00", endTime: "18:00", },
-    { weekday: "Sexta-feira", weekdayEn: "friday", startTime: "08:00", endTime: "18:00", },
+    { weekday: "Lunes", weekdayEn: "monday", startTime: "08:00", endTime: "18:00", },
+    { weekday: "Martes", weekdayEn: "tuesday", startTime: "08:00", endTime: "18:00", },
+    { weekday: "Miércoles", weekdayEn: "wednesday", startTime: "08:00", endTime: "18:00", },
+    { weekday: "Jueves", weekdayEn: "thursday", startTime: "08:00", endTime: "18:00", },
+    { weekday: "Viernes", weekdayEn: "friday", startTime: "08:00", endTime: "18:00", },
     { weekday: "Sábado", weekdayEn: "saturday", startTime: "08:00", endTime: "12:00", },
     { weekday: "Domingo", weekdayEn: "sunday", startTime: "00:00", endTime: "00:00", },
   ]);
