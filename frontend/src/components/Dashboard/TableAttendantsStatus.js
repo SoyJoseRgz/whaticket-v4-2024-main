@@ -68,14 +68,15 @@ export default function TableAttendantsStatus(props) {
 	}
 
     return ( !loading ?
+        /* Traduccion de la tabla de dashboard */
         <TableContainer component={Paper}>
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell>Nome</TableCell>
-                        <TableCell align="center">Avaliações</TableCell>
-                        <TableCell align="center">T.M. de Atendimento</TableCell>
-                        <TableCell align="center">Status (Atual)</TableCell>
+                        <TableCell>Nombre</TableCell>
+                        <TableCell align="center">Valoraciones</TableCell>
+                        <TableCell align="center">T.P. de Atención</TableCell>
+                        <TableCell align="center">Estatdo (Actual)</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
