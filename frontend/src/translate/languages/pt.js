@@ -34,7 +34,7 @@ const messages = {
           users: "Usuários",
           connections: "Conexões",
           campaigns: "Campanhas",
-          schedules: "Agendamentos",
+          schedules: "Calendario",
           enabled: "Habilitadas",
           disabled: "Desabilitadas",
           clear: "Cancelar",
@@ -307,7 +307,7 @@ const messages = {
       },
       scheduleModal: {
         title: {
-          add: "Novo Agendamento",
+          add: "Nuevo horario",
           edit: "Editar Agendamento",
         },
         form: {
@@ -421,7 +421,7 @@ const messages = {
           settings: "Configurações",
           helps: "Ajuda",
           messagesAPI: "API",
-          schedules: "Agendamentos",
+          schedules: "Calendario",
           campaigns: "Campanhas",
           annoucements: "Informativos",
           chats: "Chat Interno",
@@ -766,7 +766,7 @@ const messages = {
         title: "Central de Ajuda",
       },
       schedules: {
-        title: "Agendamentos",
+        title: "Calendario",
         confirmationModal: {
           deleteTitle: "Você tem certeza que quer excluir este Agendamento?",
           deleteMessage: "Esta ação não pode ser revertida.",
@@ -780,7 +780,7 @@ const messages = {
           actions: "Acción",
         },
         buttons: {
-          add: "Novo Agendamento",
+          add: "Nuevo horario",
         },
         toasts: {
           deleted: "Agendamento excluído com sucesso.",
