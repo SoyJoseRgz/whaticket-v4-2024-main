@@ -113,7 +113,7 @@ const messages = {
           status: "Status",
           lastUpdate: "Última atualização",
           default: "Padrão",
-          actions: "Ações",
+          actions: "Acción",
           session: "Sessão",
         },
       },
@@ -166,7 +166,7 @@ const messages = {
           name: "Nome",
           whatsapp: "WhatsApp",
           email: "Email",
-          actions: "Ações",
+          actions: "Acción",
         },
       },
       queueIntegrationModal: {
@@ -231,7 +231,7 @@ const messages = {
           name: "Nome",
           queue: "Setor/Fila",
           max_tokens: "Máximo Tokens Resposta",
-          actions: "Ações",
+          actions: "Acción",
         },
         confirmationModal: {
           deleteTitle: "Excluir",
@@ -446,7 +446,7 @@ const messages = {
           projectName: "Nome do Projeto",
           language: "Linguagem",
           lastUpdate: "Ultima atualização",
-          actions: "Ações",
+          actions: "Acción",
         },
         buttons: {
           add: "Adicionar Projeto",
@@ -529,7 +529,7 @@ const messages = {
         table: {
           shortcode: "Atajo",
           message: "Mensagem",
-          actions: "Ações",
+          actions: "Acción",
           mediaName: "Nombre del archivo",
           status: "Status",
         },
@@ -550,7 +550,7 @@ const messages = {
         table: {
           name: "Nome",
           contacts: "Contatos",
-          actions: "Ações",
+          actions: "Acción",
         },
         buttons: {
           add: "Nova Lista",
@@ -596,7 +596,7 @@ const messages = {
           number: "Número",
           whatsapp: "Whatsapp",
           email: "E-mail",
-          actions: "Ações",
+          actions: "Acción",
         },
         confirmationModal: {
           deleteTitle: "Excluir",
@@ -623,7 +623,7 @@ const messages = {
           scheduledAt: "Agendamento",
           completedAt: "Concluída",
           confirmation: "Confirmação",
-          actions: "Ações",
+          actions: "Acción",
         },
         dialog: {
           new: "Nova Campanha",
@@ -686,7 +686,7 @@ const messages = {
           text: "Texto",
           mediaName: "Arquivo",
           status: "Status",
-          actions: "Ações",
+          actions: "Acción",
         },
         dialog: {
           edit: "Edição de Informativo",
@@ -727,7 +727,7 @@ const messages = {
           name: "Nome",
           color: "Cor",
           greeting: "Mensagem de saudação",
-          actions: "Ações",
+          actions: "Acción",
           orderQueue: "Ordenação da fila (bot)",
         },
         buttons: {
@@ -748,7 +748,7 @@ const messages = {
           name: "Nome",
           email: "Email",
           profile: "Perfil",
-          actions: "Ações",
+          actions: "Acción",
         },
         buttons: {
           add: "Adicionar usuário",
@@ -777,7 +777,7 @@ const messages = {
           sendAt: "Data de Agendamento",
           sentAt: "Data de Envio",
           status: "Status",
-          actions: "Ações",
+          actions: "Acción",
         },
         buttons: {
           add: "Novo Agendamento",
@@ -796,7 +796,7 @@ const messages = {
           name: "Nome",
           color: "Cor",
           tickets: "Registros Tagdos",
-          actions: "Ações",
+          actions: "Acción",
         },
         buttons: {
           add: "Nova Tag",
