@@ -609,10 +609,10 @@ const messages = {
         },
       },
       campaigns: {
-        title: "Campanhas",
+        title: "Campaña",
         searchPlaceholder: "Buscar",
         buttons: {
-          add: "Nova Campanha",
+          add: "Crear Campaña",
           contactLists: "Listas de Contatos",
         },
         table: {
