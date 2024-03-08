@@ -311,7 +311,7 @@ const MainListItems = (props) => {
 
       <ListItemLink
         to="/schedules"
-        primary={i18n.t("Calendario")}
+        primary={i18n.t("Agenda")}
         icon={<EventIcon />}
       />
 

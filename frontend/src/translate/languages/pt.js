@@ -34,7 +34,7 @@ const messages = {
           users: "Usuários",
           connections: "Conexões",
           campaigns: "Campanhas",
-          schedules: "Calendario",
+          schedules: "Agenda",
           enabled: "Habilitadas",
           disabled: "Desabilitadas",
           clear: "Cancelar",
@@ -421,7 +421,7 @@ const messages = {
           settings: "Configurações",
           helps: "Ajuda",
           messagesAPI: "API",
-          schedules: "Calendario",
+          schedules: "Agenda",
           campaigns: "Campanhas",
           annoucements: "Informativos",
           chats: "Chat Interno",
@@ -766,7 +766,7 @@ const messages = {
         title: "Central de Ajuda",
       },
       schedules: {
-        title: "Calendario",
+        title: "Agenda",
         confirmationModal: {
           deleteTitle: "Você tem certeza que quer excluir este Agendamento?",
           deleteMessage: "Esta ação não pode ser revertida.",
