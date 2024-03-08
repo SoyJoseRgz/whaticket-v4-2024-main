@@ -114,7 +114,7 @@ export function ChatModal({
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
     >
-      <DialogTitle id="alert-dialog-title">Conversa</DialogTitle>
+      <DialogTitle id="alert-dialog-title">Conversación</DialogTitle>
       <DialogContent>
         <Grid spacing={2} container>
           <Grid xs={12} style={{ padding: 18 }} item>
@@ -138,10 +138,10 @@ export function ChatModal({
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose} color="primary">
-          Fechar
+          Salir
         </Button>
         <Button onClick={handleSave} color="primary" variant="contained">
-          Salvar
+          Guardar
         </Button>
       </DialogActions>
     </Dialog>
@@ -342,7 +342,7 @@ function Chat(props) {
                 color="primary"
                 variant="contained"
               >
-                Nova
+                Nuevo
               </Button>
             </div>
           
@@ -398,7 +398,7 @@ function Chat(props) {
                 color="primary"
                 variant="contained"
               >
-                Novo
+                Nuevo
               </Button>
             </div>
             <ChatList
