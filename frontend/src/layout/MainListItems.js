@@ -410,20 +410,23 @@ const MainListItems = (props) => {
                 </Collapse>
               </>
             )}
-            {user.super && (
+            {/* Ocultar Avisos */}
+            {/* {user.super && (
               <ListItemLink
                 to="/announcements"
                 primary={i18n.t("Avisos")}
                 icon={<AnnouncementIcon />}
               />
-            )}
-            {showOpenAi && (
+            )} */}
+
+            {/* Ocultar Open.ai */}
+            {/* {showOpenAi && (
               <ListItemLink
                 to="/prompts"
                 primary={i18n.t("mainDrawer.listItems.prompts")}
                 icon={<AllInclusive />}
               />
-            )}
+            )} */}
 
             {showIntegrations && (
               <ListItemLink
