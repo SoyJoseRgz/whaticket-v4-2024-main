@@ -459,7 +459,7 @@ const messages = {
         },
       },
       files: {
-        title: "Lista de arquivos",
+        title: "Lista de archivos",
         table: {
           name: "Nombre",
           contacts: "Contactos",
@@ -470,7 +470,7 @@ const messages = {
           deletedAll: "Todas as listas foram excluídas com sucesso!",
         },
         buttons: {
-          add: "Adicionar",
+          add: "Agregar Archivo",
           deleteAll: "Deletar Todos",
         },
         confirmationModal: {
