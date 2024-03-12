@@ -315,7 +315,7 @@ const messages = {
 				form: {
 					body: "Mensaje",
 					contact: "Contacto",
-					sendAt: "Fecha de Agendamiento",
+					sendAt: "Fecha de Programación",
 					sentAt: "Fecha de Envío",
 				},
 				buttons: {

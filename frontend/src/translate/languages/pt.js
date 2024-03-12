@@ -461,9 +461,9 @@ const messages = {
       files: {
         title: "Lista de arquivos",
         table: {
-          name: "Nome",
-          contacts: "Contatos",
-          actions: "Ação",
+          name: "Nombre",
+          contacts: "Contactos",
+          actions: "Acciónes",
         },
         toasts: {
           deleted: "Lista excluída com sucesso!",
@@ -507,7 +507,7 @@ const messages = {
         },
         buttons: {
           add: "Adicionar",
-          attach: "Anexar Arquivo",
+          attach: "Anexar Archivo",
           cancel: "Cancelar",
           edit: "Editar",
         },
@@ -537,8 +537,8 @@ const messages = {
       messageVariablesPicker: {
         label: "Variavéis disponíveis",
         vars: {
-          contactFirstName: "Primeiro Nome",
-          contactName: "Nome",
+          contactFirstName: "Primer nombre",
+          contactName: "Nombre",
           greeting: "Saudação",
           protocolNumber: "Protocolo",
           date: "Data",
@@ -684,7 +684,7 @@ const messages = {
           priority: "Prioridade",
           title: "Title",
           text: "Texto",
-          mediaName: "Arquivo",
+          mediaName: "Archivo",
           status: "Status",
           actions: "Acción",
         },
@@ -706,7 +706,7 @@ const messages = {
             okadd: "Ok",
             cancel: "Cancelar",
             close: "Fechar",
-            attach: "Anexar Arquivo",
+            attach: "Anexar Archivo",
           },
         },
         confirmationModal: {
