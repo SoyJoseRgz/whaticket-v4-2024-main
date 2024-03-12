@@ -428,13 +428,14 @@ const MainListItems = (props) => {
               />
             )} */}
 
-            {showIntegrations && (
+            {/* Ocultar Integraciones */}
+            {/* {showIntegrations && (
               <ListItemLink
                 to="/queue-integration"
                 primary={i18n.t("Integraciones")}
                 icon={<DeviceHubOutlined />}
               />
-            )}
+            )} */}
             <ListItemLink
               to="/connections"
               primary={i18n.t("Conexiones")}
