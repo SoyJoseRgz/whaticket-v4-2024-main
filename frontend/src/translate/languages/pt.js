@@ -8,7 +8,7 @@ const messages = {
           fail: "Erro ao criar usuário. Verifique os dados informados.",
         },
         form: {
-          name: "Nome",
+          name: "Nombre",
           email: "Email",
           password: "Senha",
         },
@@ -30,7 +30,7 @@ const messages = {
       },
       plans: {
         form: {
-          name: "Nome",
+          name: "Nombre",
           users: "Usuários",
           connections: "Conexões",
           campaigns: "Campanhas",
@@ -109,7 +109,7 @@ const messages = {
           },
         },
         table: {
-          name: "Nome",
+          name: "Nombre",
           status: "Status",
           lastUpdate: "Última atualização",
           default: "Padrão",
@@ -123,7 +123,7 @@ const messages = {
           edit: "Editar WhatsApp",
         },
         form: {
-          name: "Nome",
+          name: "Nombre",
           default: "Padrão",
           sendIdQueue: "Fila",
           timeSendQueue: "Redirecionar para fila em X minutos",
@@ -136,7 +136,7 @@ const messages = {
           expiresInactiveMessage: "Mensagem de encerramento por inatividade",
         },
         buttons: {
-          okAdd: "Adicionar",
+          okAdd: "Agregar",
           okEdit: "Salvar",
           cancel: "Cancelar",
         },
@@ -163,7 +163,7 @@ const messages = {
           add: "Adicionar Contato",
         },
         table: {
-          name: "Nome",
+          name: "Nombre",
           whatsapp: "WhatsApp",
           email: "Email",
           actions: "Acción",
@@ -177,7 +177,7 @@ const messages = {
         form: {
           id: "ID",
           type: "Tipo",
-          name: "Nome",
+          name: "Nombre",
           projectName: "Nome do Projeto",
           language: "Linguagem",
           jsonContent: "JsonContent",
@@ -191,7 +191,7 @@ const messages = {
           typebotDelayMessage: "Intervalo (ms) entre mensagens",   
         },
         buttons: {
-          okAdd: "Adicionar",
+          okAdd: "Agregar",
           okEdit: "Salvar",
           cancel: "Cancelar",
           test: "Testar Bot",
@@ -204,7 +204,7 @@ const messages = {
       },
       promptModal: {
         form: {
-          name: "Nome",
+          name: "Nombre",
           prompt: "Prompt",
           voice: "Voz",
           max_tokens: "Máximo de Tokens na resposta",
@@ -220,7 +220,7 @@ const messages = {
           edit: "Editar Prompt",
         },
         buttons: {
-          okAdd: "Adicionar",
+          okAdd: "Agregar",
           okEdit: "Salvar",
           cancel: "Cancelar",
         },
@@ -228,7 +228,7 @@ const messages = {
       prompts: {
         title: "Prompts",
         table: {
-          name: "Nome",
+          name: "Nombre",
           queue: "Setor/Fila",
           max_tokens: "Máximo Tokens Resposta",
           actions: "Acción",
@@ -249,7 +249,7 @@ const messages = {
         form: {
           mainInfo: "Dados do contato",
           extraInfo: "Informações adicionais",
-          name: "Nome",
+          name: "Nombre",
           number: "Número do Whatsapp",
           email: "Email",
           extraName: "Nome do campo",
@@ -258,7 +258,7 @@ const messages = {
         },
         buttons: {
           addExtraInfo: "Adicionar informação",
-          okAdd: "Adicionar",
+          okAdd: "Agregar",
           okEdit: "Salvar",
           cancel: "Cancelar",
         },
@@ -270,7 +270,7 @@ const messages = {
           edit: "Editar fila",
         },
         form: {
-          name: "Nome",
+          name: "Nombre",
           color: "Cor",
           greetingMessage: "Mensagem de saudação",
           complationMessage: "Mensagem de conclusão",
@@ -292,14 +292,14 @@ const messages = {
           edit: "Editar usuário",
         },
         form: {
-          name: "Nome",
+          name: "Nombre",
           email: "Email",
           password: "Senha",
           profile: "Perfil",
           whatsapp: "Conexão Padrão"
         },
         buttons: {
-          okAdd: "Adicionar",
+          okAdd: "Agregar",
           okEdit: "Salvar",
           cancel: "Cancelar",
         },
@@ -329,7 +329,7 @@ const messages = {
           edit: "Editar Tag",
         },
         form: {
-          name: "Nome",
+          name: "Nombre",
           color: "Cor",
         },
         buttons: {
@@ -548,15 +548,15 @@ const messages = {
       contactLists: {
         title: "Listas de Contatos",
         table: {
-          name: "Nome",
-          contacts: "Contatos",
+          name: "Nombre",
+          contacts: "Contactos",
           actions: "Acción",
         },
         buttons: {
-          add: "Nova Lista",
+          add: "Nueva Lista",
         },
         dialog: {
-          name: "Nome",
+          name: "Nombre",
           company: "Empresa",
           okEdit: "Editar",
           okAdd: "Adicionar",
@@ -566,7 +566,7 @@ const messages = {
         },
         confirmationModal: {
           deleteTitle: "Excluir",
-          deleteMessage: "Esta ação não pode ser revertida.",
+          deleteMessage: "Esta acción no puede ser revertida",
         },
         toasts: {
           deleted: "Registro excluído",
@@ -581,7 +581,7 @@ const messages = {
           import: "Importar",
         },
         dialog: {
-          name: "Nome",
+          name: "Nombre",
           number: "Número",
           whatsapp: "Whatsapp",
           email: "E-mail",
@@ -592,7 +592,7 @@ const messages = {
           cancel: "Cancelar",
         },
         table: {
-          name: "Nome",
+          name: "Nombre",
           number: "Número",
           whatsapp: "Whatsapp",
           email: "E-mail",
@@ -600,7 +600,7 @@ const messages = {
         },
         confirmationModal: {
           deleteTitle: "Excluir",
-          deleteMessage: "Esta ação não pode ser revertida.",
+          deleteMessage: "Esta acción no puede ser revertida",
           importMessage: "Deseja importar os contatos desta planilha? ",
           importTitlte: "Importar",
         },
@@ -662,7 +662,7 @@ const messages = {
         },
         confirmationModal: {
           deleteTitle: "Excluir",
-          deleteMessage: "Esta ação não pode ser revertida.",
+          deleteMessage: "Esta acción no puede ser revertida",
         },
         toasts: {
           success: "Operação realizada com sucesso",
@@ -711,7 +711,7 @@ const messages = {
         },
         confirmationModal: {
           deleteTitle: "Excluir",
-          deleteMessage: "Esta ação não pode ser revertida.",
+          deleteMessage: "Esta acción no puede ser revertida",
         },
         toasts: {
           success: "Operação realizada com sucesso",
@@ -724,7 +724,7 @@ const messages = {
       queues: {
         title: "Filas & Chatbot",
         table: {
-          name: "Nome",
+          name: "Nombre",
           color: "Cor",
           greeting: "Mensagem de saudação",
           actions: "Acción",
@@ -745,7 +745,7 @@ const messages = {
       users: {
         title: "Usuários",
         table: {
-          name: "Nome",
+          name: "Nombre",
           email: "Email",
           profile: "Perfil",
           actions: "Acción",
@@ -769,7 +769,7 @@ const messages = {
         title: "Agenda",
         confirmationModal: {
           deleteTitle: "Você tem certeza que quer excluir este Agendamento?",
-          deleteMessage: "Esta ação não pode ser revertida.",
+          deleteMessage: "Esta acción no puede ser revertida",
         },
         table: {
           contact: "Contato",
@@ -790,10 +790,10 @@ const messages = {
         title: "Tags",
         confirmationModal: {
           deleteTitle: "Você tem certeza que quer excluir esta Tag?",
-          deleteMessage: "Esta ação não pode ser revertida.",
+          deleteMessage: "Esta acción no puede ser revertida",
         },
         table: {
-          name: "Nome",
+          name: "Nombre",
           color: "Cor",
           tickets: "Registros Tagdos",
           actions: "Acción",
@@ -893,7 +893,7 @@ const messages = {
         reply: "Responder",
         confirmationModal: {
           title: "Apagar mensagem?",
-          message: "Esta ação não pode ser revertida.",
+          message: "Esta acción no puede ser revertida",
         },
       },
       backendErrors: {
