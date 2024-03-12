@@ -722,16 +722,16 @@ const messages = {
         title: "Configurações de Campanhas",
       },
       queues: {
-        title: "Filas & Chatbot",
+        title: "Filas & Departamentos",
         table: {
           name: "Nombre",
-          color: "Cor",
-          greeting: "Mensagem de saudação",
-          actions: "Acción",
-          orderQueue: "Ordenação da fila (bot)",
+          color: "Color",
+          greeting: "Mensaje de saludo",
+          actions: "Acciones",
+          orderQueue: "Ordenación de filas & departamentos",
         },
         buttons: {
-          add: "Adicionar fila",
+          add: "Agregar fila & departamento",
         },
         confirmationModal: {
           deleteTitle: "Excluir",
