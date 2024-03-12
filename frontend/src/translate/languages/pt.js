@@ -506,7 +506,7 @@ const messages = {
           deleteMessage: "Esta ação é irreversível! Deseja prosseguir?",
         },
         buttons: {
-          add: "Agregar Respuesta Rapida",
+          add: "Agregar Respuesta",
           attach: "Anexar Archivo",
           cancel: "Cancelar",
           edit: "Editar",
