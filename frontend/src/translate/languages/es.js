@@ -43,7 +43,7 @@ const messages = {
 					save: "Guardar",
 					yes: "Sí",
 					no: "No",
-					money: "R$",
+					money: "$",
 				},
 			},
 			companies: {
