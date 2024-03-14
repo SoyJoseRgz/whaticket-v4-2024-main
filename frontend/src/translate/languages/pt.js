@@ -538,8 +538,8 @@ const messages = {
         label: "Variavéis disponíveis",
         vars: {
           contactFirstName: "Primer nombre",
-          contactName: "Nombre",
-          greeting: "Saudação",
+          contactName: "Nombre completo",
+          greeting: "Saludo",
           protocolNumber: "Protocolo",
           date: "Data",
           hour: "Hora",
