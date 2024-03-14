@@ -2,7 +2,7 @@ import Mustache from "mustache";
 import Contact from "../models/Contact";
 
 export const greeting = (): string => {
-  const greetings = ["Boa madrugada", "Bom dia", "Boa tarde", "Boa noite"];
+  const greetings = ["Buena madrugada", "Buen día", "Buena tarde", "Buena noche"];
   const h = new Date().getHours();
   // eslint-disable-next-line no-bitwise
   return greetings[(h / 6) >> 0];
