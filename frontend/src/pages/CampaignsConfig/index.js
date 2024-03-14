@@ -142,17 +142,17 @@ const CampaignsConfig = () => {
                 fullWidth
               >
                 <InputLabel id="messageInterval-label">
-                  Intervalo Randômico de Disparo
+                Intervalo de activación aleatorio
                 </InputLabel>
                 <Select
                   name="messageInterval"
                   id="messageInterval"
                   labelId="messageInterval-label"
-                  label="Intervalo Randômico de Disparo"
+                  label="Intervalo de activación aleatorio"
                   value={settings.messageInterval}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
-                  <MenuItem value={0}>Sem Intervalo</MenuItem>
+                  <MenuItem value={0}>Seleccione Intervalo</MenuItem>
                   <MenuItem value={5}>5 segundos</MenuItem>
                   <MenuItem value={10}>10 segundos</MenuItem>
                   <MenuItem value={15}>15 segundos</MenuItem>
@@ -167,17 +167,17 @@ const CampaignsConfig = () => {
                 fullWidth
               >
                 <InputLabel id="longerIntervalAfter-label">
-                  Intervalo Maior Após
+                  Intervalo más largo después
                 </InputLabel>
                 <Select
                   name="longerIntervalAfter"
                   id="longerIntervalAfter"
                   labelId="longerIntervalAfter-label"
-                  label="Intervalo Maior Após"
+                  label="Intervalo más largo después"
                   value={settings.longerIntervalAfter}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
-                  <MenuItem value={0}>Não definido</MenuItem>
+                  <MenuItem value={0}>No definido</MenuItem>
                   <MenuItem value={1}>1 segundo</MenuItem>
                   <MenuItem value={5}>5 segundos</MenuItem>
                   <MenuItem value={10}>10 segundos</MenuItem>
@@ -199,13 +199,13 @@ const CampaignsConfig = () => {
                 fullWidth
               >
                 <InputLabel id="greaterInterval-label">
-                  Intervalo de Disparo Maior
+                 Tiempo de espera más largo
                 </InputLabel>
                 <Select
                   name="greaterInterval"
                   id="greaterInterval"
                   labelId="greaterInterval-label"
-                  label="Intervalo de Disparo Maior"
+                  label="Tiempo de espera más largo"
                   value={settings.greaterInterval}
                   onChange={(e) => handleOnChangeSettings(e)}
                 >
@@ -230,14 +230,14 @@ const CampaignsConfig = () => {
                 color="primary"
                 style={{ marginRight: 10 }}
               >
-                Agregar Variável
+                Agregar Variables
               </Button>
               <Button
                 onClick={saveSettings}
                 color="primary"
                 variant="contained"
               >
-                Salvar Configurações
+                Guardar Cambios
               </Button>
             </Grid>
             {showVariablesForm && (
@@ -268,14 +268,14 @@ const CampaignsConfig = () => {
                     color="primary"
                     style={{ marginRight: 10 }}
                   >
-                    Fechar
+                    Salir
                   </Button>
                   <Button
                     onClick={addVariable}
                     color="primary"
                     variant="contained"
                   >
-                    Agregar
+                    Guardar
                   </Button>
                 </Grid>
               </>
@@ -287,7 +287,7 @@ const CampaignsConfig = () => {
                     <TableRow>
                       <TableCell style={{ width: "1%" }}></TableCell>
                       <TableCell>Atajo</TableCell>
-                      <TableCell>Conteúdo</TableCell>
+                      <TableCell>Contenido</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>

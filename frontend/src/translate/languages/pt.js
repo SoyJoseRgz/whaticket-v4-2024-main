@@ -416,7 +416,7 @@ const messages = {
           contacts: "Contatos",
           queues: "Filas & Chatbot",
           tags: "Tags",
-          administration: "Administração",
+          administration: "Administración",
           users: "Usuários",
           settings: "Configurações",
           helps: "Ajuda",
@@ -535,7 +535,7 @@ const messages = {
         },
       },
       messageVariablesPicker: {
-        label: "Variavéis disponíveis",
+        label: "Variables disponibles",
         vars: {
           contactFirstName: "Primer nombre",
           contactName: "Nombre completo",
@@ -719,7 +719,7 @@ const messages = {
         },
       },
       campaignsConfig: {
-        title: "Configurações de Campanhas",
+        title: "Configuración de campañas",
       },
       queues: {
         title: "Filas & Departamentos",
@@ -780,7 +780,7 @@ const messages = {
           actions: "Acción",
         },
         buttons: {
-          add: "Nuevo horario",
+          add: "Agregar agenda",
         },
         toasts: {
           deleted: "Agendamento excluído com sucesso.",

@@ -130,7 +130,7 @@ const messages = {
 					sendIdQueue: "Enviar a cola",
 					timeSendQueue: "Redirigir a la cola en X minutos",
 					queueRedirection: "Redirección de cola",
-					queueRedirectionDesc: "Selecciona una cola para redirigir a los contactos que no tienen una cola asignada",
+					queueRedirectionDesc: "Selecciona una Fila & Departamento para redirigir a los contactos que no tienen una cola asignada",
 					prompt: "Mensaje",
 					maxUseBotQueues: "Enviar bot X veces",
 					timeUseBotQueues: "Intervalo en minutos entre envíos del bot",

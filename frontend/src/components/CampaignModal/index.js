@@ -283,7 +283,7 @@ const CampaignModal = ({
         placeholder={i18n.t("campaigns.dialog.form.messagePlaceholder")}
         multiline={true}
         variant="outlined"
-        helperText="Utilize variáveis como {nome}, {numero}, {email} ou defina variáveis personalziadas."
+        helperText="Utilice variables como {nome}, {numero}, {email} o defina variables personalizadas.."
         disabled={!campaignEditable && campaign.status !== "CANCELADA"}
       />
     );

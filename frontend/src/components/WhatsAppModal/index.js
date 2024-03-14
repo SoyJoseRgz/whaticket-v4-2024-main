@@ -127,6 +127,8 @@ const WhatsAppModal = ({ open, onClose, whatsAppId }) => {
     })();
   }, []);
 
+/* Archivo donde esta la pestaña de conexiones para editar despues  */
+
   const handleSaveWhatsApp = async (values) => {
 const whatsappData = {
       ...values, queueIds: selectedQueueIds, transferQueueId: selectedQueueId,
@@ -299,7 +301,8 @@ const whatsappData = {
                     margin="dense"
                   />
                 </div>
-                <div>
+                {/* Ocultar seccion de Token en conexiones */}
+                {/* <div>
                   <Field
                     as={TextField}
                     label={i18n.t("queueModal.form.token")}
@@ -309,7 +312,7 @@ const whatsappData = {
                     variant="outlined"
                     margin="dense"
                   />
-                </div>
+                </div> */}
                 <QueueSelect
                   selectedQueueIds={selectedQueueIds}
                   onChange={(selectedIds) => handleChangeQueue(selectedIds)}
@@ -361,7 +364,7 @@ const whatsappData = {
                       fullWidth
                       type="number"
                       as={TextField}
-                      label='Transferir após x (minutos)'
+                      label='Transferir después de x (minutos)'
                       name="timeToTransfer"
                       error={touched.timeToTransfer && Boolean(errors.timeToTransfer)}
                       helperText={touched.timeToTransfer && errors.timeToTransfer}
