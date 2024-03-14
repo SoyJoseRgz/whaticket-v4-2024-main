@@ -342,9 +342,9 @@ const QueueModal = ({ open, onClose, queueId }) => {
                         variant="outlined"
                         fullWidth
                       >
-                       {/*  <InputLabel>
+                        <InputLabel>
                           {i18n.t("whatsappModal.form.prompt")}
-                        </InputLabel> */}
+                        </InputLabel>
                         
                         <Select
                           labelId="dialog-select-prompt-label"
