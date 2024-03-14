@@ -174,7 +174,7 @@ const QueueModal = ({ open, onClose, queueId }) => {
     onClose();
     setQueue(initialState);
   };
-
+  /* Archivo de la pestaña de Filas y Departamentos para poder editar  */
   const handleSaveQueue = async (values) => {
     try {
       if (queueId) {
@@ -224,7 +224,7 @@ const QueueModal = ({ open, onClose, queueId }) => {
           onChange={(_, v) => setTab(v)}
           aria-label="disabled tabs example"
         >
-          <Tab label="Dados da Fila" />
+          <Tab label="Dados de Fila & Departamento" />
           {schedulesEnabled && <Tab label="Horario de atención " />}
         </Tabs>
         {tab === 0 && (
@@ -345,7 +345,8 @@ const QueueModal = ({ open, onClose, queueId }) => {
                         <InputLabel>
                           {i18n.t("whatsappModal.form.prompt")}
                         </InputLabel>
-                        <Select
+                        {/* Ocultar Integración */}
+                        {/* <Select
                           labelId="dialog-select-prompt-label"
                           id="dialog-select-prompt"
                           name="promptId"
@@ -373,7 +374,7 @@ const QueueModal = ({ open, onClose, queueId }) => {
                               {prompt.name}
                             </MenuItem>
                           ))}
-                        </Select>
+                        </Select> */}
                       </FormControl>
                     </div>
                     <div style={{ marginTop: 5 }}>
