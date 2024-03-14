@@ -63,9 +63,9 @@ const useStyles = makeStyles(theme => ({
 const ScheduleSchema = Yup.object().shape({
 	body: Yup.string()
 		.min(5, "Mensagem muito curta")
-		.required("Obrigatório"),
-	contactId: Yup.number().required("Obrigatório"),
-	sendAt: Yup.string().required("Obrigatório")
+		.required("Obligatorio"),
+	contactId: Yup.number().required("Obligatorio"),
+	sendAt: Yup.string().required("Obligatorio")
 });
 
 const ScheduleModal = ({ open, onClose, scheduleId, contactId, cleanContact, reload }) => {
