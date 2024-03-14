@@ -345,8 +345,8 @@ const QueueModal = ({ open, onClose, queueId }) => {
                         <InputLabel>
                           {i18n.t("whatsappModal.form.prompt")}
                         </InputLabel>
-                        {/* Ocultar Integración */}
-                        {/* <Select
+                        
+                        <Select
                           labelId="dialog-select-prompt-label"
                           id="dialog-select-prompt"
                           name="promptId"
@@ -374,7 +374,7 @@ const QueueModal = ({ open, onClose, queueId }) => {
                               {prompt.name}
                             </MenuItem>
                           ))}
-                        </Select> */}
+                        </Select>
                       </FormControl>
                     </div>
                     <div style={{ marginTop: 5 }}>
