@@ -725,7 +725,7 @@ const MessagesList = ({ ticket, ticketId, isGroup }) => {
                 {message.isDeleted && (
                   <div>
                     <span className={"message-deleted"}
-                    >Essa mensagem foi apagada pelo contato &nbsp;
+                    >Este mensaje fue eliminado por el contacto. &nbsp;
                       <Block
                         color="error"
                         fontSize="small"
@@ -797,7 +797,7 @@ const MessagesList = ({ ticket, ticketId, isGroup }) => {
       });
       return viewMessagesList;
     } else {
-      return <div>Diga olá para seu novo contato!</div>;
+      return <div>¡Saluda a tu nuevo contacto!</div>;
     }
   };
 

@@ -302,12 +302,12 @@ const useStyles = makeStyles((theme) => ({
 	
 	    const handleSendMessage = async (id) => {
         
-        const msg = `{{ms}} *{{name}}*, meu nome é *${user?.name}* e agora vou prosseguir com seu atendimento!`;
+        const msg = `{{ms}} *{{name}}*, mi nombre es *${user?.name}* ¡Y ahora continuaré con tu servicio!`;
         const message = {
             read: 1,
             fromMe: true,
             mediaUrl: "",
-            body: `*Mensagem Automática:*\n${msg.trim()}`,
+            body: `\n${msg.trim()}`,
         };
         try {
             await api.post(`/messages/${id}`, message);
